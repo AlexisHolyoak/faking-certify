@@ -20,6 +20,9 @@ app.get("/carnet/vacunacion/ef43fad1344f51/peralta/alexis", function (req, res) 
 app.get("/carnet/vacunacion/ef43fad1344f51/peralta/diana", function (req, res) {
   res.sendFile(__dirname +"/public/"+"diana.html");
 });
+app.get("/carnet/vacunacion/ef43fad1344f51/peralta/kevin", function (req, res) {
+  res.sendFile(__dirname +"/public/"+"kevin.html");
+});
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, 
 	() => console.log("Server is running..."));
