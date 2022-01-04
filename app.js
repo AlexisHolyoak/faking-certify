@@ -23,6 +23,9 @@ app.get("/carnet/vacunacion/ef43fad1344f51/peralta/diana", function (req, res) {
 app.get("/carnet/vacunacion/ef43fad1344f51/peralta/kevin", function (req, res) {
   res.sendFile(__dirname +"/public/"+"kevin.html");
 });
+app.get("/carnet/vacunacion/ef43fad1344f51/caceres/marylin", function (req, res) {
+  res.sendFile(__dirname +"/public/"+"marylin.html");
+});
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, 
 	() => console.log("Server is running..."));
